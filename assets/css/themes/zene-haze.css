@@ -1,0 +1,83 @@
+﻿/*
+    #27282D - 27282D
+    #2F364D - 2F364D
+    #AACDCD - AACDCD
+    #AFA278 - AFA278
+    #EEEEEE - EEEEEE
+*/
+
+.bootsterContainer.footer .contentpane,
+.bootsterContainer.footer .contentpane p  { color:#EEEEEE; }
+.bootsterContainer.footer .contentpane h4,
+.bootsterContainer.footer .contentpane h4 { color:#EEEEEE; }
+
+.bootsterContainer.footer a,
+.bootsterContainer.footer a:link,
+.bootsterContainer.footer a:active,
+.bootsterContainer.footer a:visited,
+.bootsterContainer.footer a:focus { color:#EEEEEE !important; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { color: #2F364D; }
+
+.topbar             { background: #27282D; }
+.search-bar         { background: #AACDCD; }
+.navbar-fixed-top   { background: #2F364D; }
+footer              { background: #27282D; }
+
+#search-action, .SearchButton, .search-toggle-icon                          { background: url(../../img/search.png) center center no-repeat #27282D; }
+#search-action:hover, .SearchButton:hover, .search-toggle-icon:hover        { background: url(../../img/search.png) center center no-repeat #2F364D; }
+.searchInputContainer input                                                 { background:#EEEEEE; }
+.search-button, .search-button a, .search-button a:link,
+.search-button a:active, .search-button a:visited, .search-button a:focus   { border-right:solid 1px #AACDCD; color:#EEEEEE; }
+.search-button a:hover                                                      { background: #2F364D; }
+
+
+.registerGroup .userDisplayName                 { border-left: 1px solid #AACDCD; }
+.userMessages strong                            { border-left: 1px solid #AACDCD; }
+.userMessages a, .userNotifications a           { border-right: 1px solid #AACDCD; }
+.registerGroup a, .loginGroup a                 { border-right: 1px solid #AACDCD; color: #EEEEEE; }
+.registerGroup a:hover, .loginGroup a:hover     { background: #2F364D; }
+
+ul.searchSkinObjectPreview > li:hover           { background-color: #AACDCD; color: #27282D; }
+ul.searchSkinObjectPreview                      { background: #EEEEEE; border: 1px solid #2F364D; }
+
+.navbar-default .navbar-nav > li > a            { color: #EEEEEE; }
+
+.navbar-default .dropdown-menu>li>a:hover       { background-color: #AACDCD; color:#ffffff; }
+.navbar-default .navbar-nav>li>a:hover          { color: #27282D; background:#AACDCD; }
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus   { color: #27282D; background-color: #AACDCD; }
+
+.nav .open > a, .nav .open > a:hover, 
+.nav .open > a:focus                            { background-color: #AACDCD; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus { color: #EEEEEE; background-color: #27282D; }
+.navbar-default .navbar-nav > .active > a:hover { color: #27282D; background-color: #AFA278; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {  color: #AACDCD; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background: #EEEEEE; color:#27282D; }
+
+
+.socialC .contentpane .list-inline li a         { color:#AACDCD; }
+.socialC .contentpane .list-inline li a i       { border: 1px solid #AFA278; }
+h4.page-title                                   { color: #2F364D }
+
+.bootsterContainer .contentpane .Normal, 
+.bootsterContainer .contentpane div, 
+.bootsterContainer .contentpane p, 
+.bootsterContainer .contentpane td, 
+.bootsterContainer .contentpane b               { color: #2F364D; }
+
+.bootsterContainer .contentpane a,
+.bootsterContainer .contentpane a:active,
+.bootsterContainer .contentpane a:link,
+.bootsterContainer .contentpane a:focus,
+.bootsterContainer .contentpane a:visited       { color: #AACDCD; text-decoration:underline; font-weight:600 }
+.bootsterContainer .contentpane a:hover         { color: #2F364D; text-decoration:none; }
+
+
+
+.navbar-default .navbar-toggle .icon-bar { background-color: #EEEEEE; }

@@ -1,0 +1,147 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="DnnC.Skins.DnnBootster" type="Skin" version="01.00.00">
+      <friendlyName>DnnBootster</friendlyName>
+      <description>A responsive DNN skin using Bootstrap v3.3.6. Requires installation via the Host/Extensions page.</description>
+      <owner>
+        <name>Geoff Barlow</name>
+        <organization>DnnConsulting.nl</organization>
+        <url>http://www.DnnConsulting.nl</url>
+        <email>info@DnnConsulting.nl</email>
+      </owner>
+      <azureCompatible>true</azureCompatible>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>portals/_default/skins/DnnBootster</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>DnnBootster</skinName>
+            <basePath />
+          </skinFiles>
+        </component>
+      </components>
+    </package>
+    
+    <package name="DnnC.Containers.DnnBootster" type="Container" version="01.00.00">
+      <friendlyName>DnnBootster</friendlyName>
+      <description>Containers for the DnnBootster Theme package.</description>
+      <owner>
+        <name>Geoff Barlow</name>
+        <organization>DnnConsulting.nl</organization>
+        <url>http://www.DnnConsulting.nl</url>
+        <email>info@DnnConsulting.nl</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Container">
+          <basePath>portals/_default/containers/DnnBootster</basePath>
+          <containerFiles>
+            <containerName>DnnBootster</containerName>
+            <containerFile>
+              <name>footer.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>footer_NoTitle.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>NoTitle.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelBasic.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelHeader.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelHeaderDanger.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelHeaderInfo.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelHeaderPrimary.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelHeaderSuccess.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>PanelHeaderWarning.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>slider.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>slider.css</name>
+            </containerFile>
+            <containerFile>
+              <name>social.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>social.css</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h1_arrow.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h1_line.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h2_arrow.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h2_line.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h3_arrow.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h3_line.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h4_arrow.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h4_line.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Well.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Welllarge.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>WellSmall.ascx</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+      </components>            
+    </package>
+  </packages>
+</dotnetnuke>
