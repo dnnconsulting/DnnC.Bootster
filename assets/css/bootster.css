@@ -291,6 +291,14 @@ ul.searchSkinObjectPreview {
 
 .bootsterContainer.sliderC .contentpane .carousel-caption { background:rgba(255, 255, 255, 0.5); }
 
+/** Fix for IE11 slider, when the slider swap image the screen size is expanded to take the full height of the image then reduced */
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+
+
 
 
 .bootsterContainer.footer .contentpane,
