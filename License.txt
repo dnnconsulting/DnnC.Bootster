@@ -24,7 +24,8 @@
   </p>
 
   <div>
-	<p>Bootstrapfiles from http://getbootstrap.com </p>
+	<p>Bootstrap files from http://getbootstrap.com </p>
+	<p>Font Awesome files from https://fortawesome.github.io/Font-Awesome </p>
   </div>
 </div>
 

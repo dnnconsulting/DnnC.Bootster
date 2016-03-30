@@ -37,32 +37,30 @@
 
 <section class="section-page-header">
     <div class="container">
-        <!--#include file = "includes/page-header.ascx" -->
+        <!--#include file = "includes/admin-page-header.ascx" -->
     </div>
 </section>
 
+
+
+
 <!-- Start : Content Pane : full width -->
- <div class="container">
+ <div class="container-fluid">
      <div class="row">
          <div class="col-md-12"><div id="ContentPane" runat="server" /></div>
      </div>
 </div><!-- End : Content Pane : full width -->
 
-<!-- Start : Content Areas -->
-<section>
-    <!--#include file = "includes/_content-panes.ascx" -->
-</section><!-- End : Content Areas -->
-
 <footer>
     <div class="container">
-        <!--#include file = "includes/footer.ascx" -->
+       
     </div>
     <div class="legal-footer">
         <div class="container">
             <!--#include file = "includes/footer-legal.ascx" -->
         </div>
     </div>
-</footer>   
+</footer>
 
 <dnn:DnnJsInclude ID="DnnJsInclude3" runat="server" FilePath="assets/bootstrap/3.3.6/js/bootstrap.min.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
 <dnn:DnnJsInclude ID="DnnJsInclude2" runat="server" FilePath="assets/js/jquery.smartmenus.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />

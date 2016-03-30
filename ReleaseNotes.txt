@@ -6,6 +6,21 @@
 <hr/>
 	<h3>About the DnnBootster Theme</h3>
 
+	<h4>Version 01.00.02</h4><br />
+	Small changes
+	<h5>Added</h5>
+	<ul>
+			<li>Dedicated admin skin added</li>
+			<li>404 skin added</li>
+	</ul>
+	<h5>Bug Fixes/changes</h5>
+	<ul>
+			<li>
+				Changed the ContentPane container from "container-fluid" to "container", this is done 
+				because there is a dedicated admin skin for editing which uses the "container-fluid" class.
+			</li>
+	</ul>
+
 	<h4>Version 01.00.01</h4><br />
 	Small changes
 	<h5>Added</h5>
