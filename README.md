@@ -37,4 +37,21 @@ To install follow the steps below:
 2. Go to Host –> Extensions –> Install Extension wizard to install the Bootster skin pack.
 3. After the installation has been completed, navigate to Admin –> Site Settings –> Basic Settings (tab) –> Appearance (section) and specify portal and edit skins and containers.
 
+## Theme Configuration ##
+
+### Menu Options ##
+1. default - All themes are pre-configured to use the default menu option, which has drop down menus items where the parent node of a dropdown is NOT clickable.
+2. ClickableParent - Exactly the same as the default menu, with the exception that it allows the parent node of a dropdown to also be clickable.
+
+Change the menu option on line 16 of the menu.ascx file (DNNBootster/includes/menu.ascx).
+1. default: `<dnn:menu id="NAV" runat="server" menustyle="nav/default"/>`
+2. clickable: `<dnn:menu id="NAV" runat="server" menustyle="nav/ClickableParent"/>`
+
+### Changing Themes ###
+To change the color theme of the skin is easy to do...
+Open the skin.ascx and Home.ascx files found in the root of the skin folder 'Bootster'. At the top of the file look for a line with the ID of 'DnnCssThemeInclude' like below:
+
+`<!-- Theme Css File --><dnn:DnnCssInclude ID="DnnCssThemeInclude" runat="server" FilePath="assets/css/themes/grey.css" PathNameAlias="SkinPath" /><!-- Theme Css File -->`
+
+
 Enjoy!
