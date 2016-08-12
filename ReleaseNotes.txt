@@ -6,6 +6,20 @@
 <hr/>
 	<h3>About the DnnBootster Theme</h3>
 
+	<h4>Version 01.00.04</h4><br />
+	<ul>
+		<li>
+			Updated Bootstrap from v3.3.6 to v3.3.7<br/>
+			v3.3.6 is still in the install but all skin files point to the newer version.
+		</li>
+		<li>
+			Updated Fontawesome from v4.5.0 to v4.6.3<br/>
+			v4.5.0 is still in the install but all skin files point to the newer version.
+		</li>
+		<li>A new navigation provider is available, 'clickableParent'. This was a pull request created by Justin Acton 
+		<li>Each theme now has styles for 'DnnPrimary' and 'dnnSecondary' button styles. This was a pull request created by Justin Acton</li>
+	</ul>
+
 	<h4>Version 01.00.03</h4><br />
 	Small change
 	<h5>Added</h5>
