@@ -69,16 +69,130 @@ h4.page-title                                   { color: #427676 }
 .bootsterContainer .contentpane div, 
 .bootsterContainer .contentpane p, 
 .bootsterContainer .contentpane td, 
-.bootsterContainer .contentpane b               { color: #427676; }
+.bootsterContainer .contentpane b               { color: #000; }
 
 .bootsterContainer .contentpane a,
 .bootsterContainer .contentpane a:active,
 .bootsterContainer .contentpane a:link,
 .bootsterContainer .contentpane a:focus,
-.bootsterContainer .contentpane a:visited       { color: #3F9A82; text-decoration:underline; font-weight:600 }
+.bootsterContainer .contentpane a:visited       { color: #3F9A82; text-decoration:none; font-weight:600 }
 .bootsterContainer .contentpane a:hover         { color: #427676; text-decoration:none; }
 
 
 
 .navbar-default .navbar-toggle .icon-bar { background-color: #ECDB60; }
 
+/* Primary Action */
+
+.dnnPrimaryAction, .dnnFormItem input[type="submit"], a.dnnPrimaryAction {
+    border-color: #427676; /*dark blue*/
+    background: #3792ED;
+    background: -moz-linear-gradient(top, #427676 0%, #3F9A82 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#427676), color-stop(100%,#3F9A82)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #427676 0%,#3F9A82 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #427676 0%,#3F9A82 100%); /* W3C */
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    color: #efefef !important;
+    text-shadow: 0px -1px 0px #185B93;
+}
+
+    .dnnPrimaryAction:hover, .dnnFormItem input[type="submit"]:hover, a.dnnPrimaryAction:hover {
+        border-color: #427676;
+        background: #3F9A82; /* Old browsers */
+        background: -moz-linear-gradient(top, #3F9A82 0%, #427676 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3F9A82), color-stop(100%,#427676)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #3F9A82 0%,#427676 100%); /* Chrome10+,Safari5.1+ */
+        background: linear-gradient(top, #3F9A82 0%,#427676 100%); /* W3C */
+        color: #fff;
+    }
+
+    .dnnPrimaryAction:active, .dnnFormItem input[type="submit"]:active, a.dnnPrimaryAction:active {
+        border-color: #427676;
+        background: #1f66be; /* Old browsers */
+        background: -moz-linear-gradient(top, #1f66be 0%, #3085e0 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f66be), color-stop(100%,#3085e0)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #1f66be 0%,#3085e0 100%); /* Chrome10+,Safari5.1+ */
+        background: linear-gradient(top, #1f66be 0%,#3085e0 100%); /* W3C */
+        -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        color: #fff;
+    }
+
+    .dnnPrimaryAction[disabled], .dnnPrimaryAction[disabled]:hover, .dnnPrimaryAction[disabled]:active {
+        background: #ccc !important;
+        border: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        color: #aaa !important;
+        text-shadow: none;
+    }
+
+/* Secondary Action */
+.dnnFormItem button, .dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnSecondaryAction,
+a.dnnSecondaryAction,
+ul.dnnAdminTabNav li a,
+.dnnLogin .LoginTabGroup span {
+    background: #f5f5f5; /* Old browsers */
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #dfdfdf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#dfdfdf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f5f5f5 0%,#dfdfdf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f5f5f5 0%,#dfdfdf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f5f5f5 0%,#dfdfdf 100%); /* IE10+ */
+    background: linear-gradient(top, #f5f5f5 0%,#dfdfdf 100%); /* W3C */
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    /*text-shadow: 0px 1px 2px #000000;*/
+    color: #333;
+}
+
+    .dnnFormItem button:hover, .dnnFormItem input[type="button"]:hover,
+    .dnnFormItem input[type="reset"]:hover,
+    .dnnSecondaryAction:hover,
+    a.dnnSecondaryAction:hover,
+    ul.dnnAdminTabNav li a:hover,
+    .dnnLogin .LoginTabGroup span:hover {
+        background: #fefefe; /* Old browsers */
+        background: -moz-linear-gradient(top, #fefefe 0%, #e8e8e8 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #fefefe 0%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #fefefe 0%,#e8e8e8 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #fefefe 0%,#e8e8e8 100%); /* IE10+ */
+        background: linear-gradient(top, #fefefe 0%,#e8e8e8 100%); /* W3C */
+        color: #555;
+    }
+
+    .dnnFormItem button:active,
+    .dnnFormItem input[type="button"]:active,
+    .dnnFormItem input[type="reset"]:active,
+    .dnnFormItem input[type="reset"]:active,
+    .dnnSecondaryAction:active,
+    a.dnnSecondaryAction:active,
+    ul.dnnAdminTabNav li a:active {
+        border-color: #999;
+        background: #c6c6c6; /* Old browsers */
+        background: -moz-linear-gradient(top, #c6c6c6 0%, #f3f3f3 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6c6c6), color-stop(100%,#f3f3f3)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #c6c6c6 0%,#f3f3f3 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #c6c6c6 0%,#f3f3f3 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #c6c6c6 0%,#f3f3f3 100%); /* IE10+ */
+        background: linear-gradient(top, #c6c6c6 0%,#f3f3f3 100%); /* W3C */
+        -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+    }
+
+/* Bootstrap Style Overrides */
+	.btn-primary,
+	.btn-primary:active,
+	.dropdown-toggle.btn-primary,
+	.bg-primary {color: #fff !important;background-color: #3F9A82 !important;border-color: #427676 !important;}
+	.btn-primary:hover {color: #fff;background-color: #427676 !important;border-color: #427676 !important;}
+	blockquote {
+		padding: 10px 20px;
+		margin: 0 0 20px;
+		font-size: 17.5px;
+		border-left: 5px solid #A1CD73;
+	}
+	.text-primary {color: #3F9A82 !important;}
