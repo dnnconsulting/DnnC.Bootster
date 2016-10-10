@@ -1,0 +1,93 @@
+/*Dark to light
+    #E8440C - E8440C
+    #FFAC0D - FFAC0D
+    #E8840C - E8840C
+    #E0E0E0 - E0E0E0
+    #FF6600 - FF6600
+    #222222 - 222222
+    #FFFFFF - FFFFFF
+    #F0F0F0 - F0F0F0
+*/
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { color: #FF6600; }
+
+.bootsterContainer.footer .contentpane,
+.bootsterContainer.footer .contentpane p  { color:#FF6600; }
+.bootsterContainer.footer .contentpane h4,
+.bootsterContainer.footer .contentpane h4 { color:#FF6600; }
+
+.bootsterContainer.footer a,
+.bootsterContainer.footer a:link,
+.bootsterContainer.footer a:active,
+.bootsterContainer.footer a:visited,
+.bootsterContainer.footer a:focus { color:#FF6600 !important; }
+
+
+
+.topbar             { background: #E8440C; }
+.search-bar         { background: #E8840C; }
+.navbar-fixed-top   { background: #FFAC0D; }
+.navbar-default 	{ background-color: #E0E0E0; }
+footer              { background: #E8440C; }
+footer, footer a, footer a:link, footer a:visited, footer a:active, footer a:focus { color: #C0C0C0; }
+footer a:hover { color: #FFFFFF; }
+
+#search-action, .SearchButton, .search-toggle-icon                          { background: url(../../img/search.png) center center no-repeat #E8440C; }
+#search-action:hover, .SearchButton:hover, .search-toggle-icon:hover        { background: url(../../img/search.png) center center no-repeat #FFAC0D; }
+.searchInputContainer input                                                 { background:#FFFFFF; color: #222222; }
+.search-button, .search-button a, .search-button a:link,
+.search-button a:active, .search-button a:visited, .search-button a:focus   { border-right:solid 1px #E8840C; color:#FFFFFF; }
+.search-button a:hover                                                      { background: #FFAC0D; }
+
+
+.registerGroup .userDisplayName                 { border-left: 1px solid #E8840C; }
+.userMessages strong                            { border-left: 1px solid #E8840C; }
+.userMessages a, .userNotifications a           { border-right: 1px solid #E8840C; }
+.registerGroup a, .loginGroup a                 { border-right: 1px solid #E8840C; color: #FFFFFF; }
+.registerGroup a:hover, .loginGroup a:hover     { background: #FFAC0D; }
+
+ul.searchSkinObjectPreview > li:hover           { background-color: #C0C0C0; color: #FFFFFF; }
+ul.searchSkinObjectPreview                      { background: #F0F0F0; border: 1px solid #FFAC0D; }
+
+.navbar-default .navbar-nav > li > a            { color: #E8440C; }
+
+.navbar-default .dropdown-menu>li>a:hover       { background-color: #E8440C; color:#FFFFFF; }
+.navbar-default .navbar-nav>li>a:hover          { color: #FFFFFF; background:#E8440C; }
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus   { color: #FFFFFF; background-color: #E8440C; }
+
+.nav .open > a, .nav .open > a:hover, 
+.nav .open > a:focus                            { background-color: #E8440C; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus { color: #FFFFFF; background-color: #E8440C; }
+.navbar-default .navbar-nav > .active > a:hover { color: #E8440C; background-color: #E0E0E0; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {  color: #E8440C; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background: #E8440C; color:#FFFFFF; }
+
+
+.socialC .contentpane .list-inline li a         { color:#E8840C; }
+.socialC .contentpane .list-inline li a i       { border: 1px solid #E0E0E0; }
+h4.page-title                                   { color: #FFAC0D }
+
+.bootsterContainer .contentpane .Normal, 
+.bootsterContainer .contentpane div, 
+.bootsterContainer .contentpane p, 
+.bootsterContainer .contentpane td, 
+.bootsterContainer .contentpane b               { color: #222222; }
+
+.bootsterContainer .contentpane a,
+.bootsterContainer .contentpane a:active,
+.bootsterContainer .contentpane a:link,
+.bootsterContainer .contentpane a:focus,
+.bootsterContainer .contentpane a:visited       { color: #E8840C; text-decoration:none; font-weight:600 }
+.bootsterContainer .contentpane a:hover         { color: #FFAC0D; text-decoration:none; }
+
+.navbar-default .navbar-toggle .icon-bar { background-color: #FF6600; }
+
+.mark { background-color: transparent;}
+
