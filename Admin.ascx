@@ -37,7 +37,7 @@
 
 <section class="section-page-header">
     <div class="container">
-        <!--#include file = "includes/admin-page-header.ascx" -->
+        <!--#include file = "includes/page-header.ascx" -->
     </div>
 </section>
 
