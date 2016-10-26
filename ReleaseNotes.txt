@@ -6,6 +6,20 @@
 <hr/>
 	<h3>About the DnnBootster Theme</h3>
 
+	<h4>Version 01.00.04</h4><br />
+	<h5>Add functionality and fixes</h5>
+	<ul>
+		<li>Updated Bootstrap to version 3.3.7</li>
+		<li>Updated Fontawesome to version 4.5.0</li>
+		<li>Fixed the header include in the admin skin</li>
+		<li>Added minified css and amended the links in the skins</li>
+		<li>Merged optimized images (Ernst Peter Tamminga, pull request)</li>
+		<li>Add extra css for admin (Peter Scotman, pull request)</li>
+		<li>Add extra theme Orange (David Poindexter, pull request)</li>
+		<li>Removed the css that resizes the controlbar, causes problems</li>
+		<li>Variuos other small changes</li>
+	</ul>
+
 	<h4>Version 01.00.03</h4><br />
 	Small change
 	<h5>Added</h5>

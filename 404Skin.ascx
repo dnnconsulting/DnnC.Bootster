@@ -16,10 +16,10 @@
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width, initial-scale=1.0" />
 <dnn:JQUERY ID="dnnjQuery" runat="server" jQueryHoverIntent="true" />
 
-<dnn:DnnCssInclude ID="DnnCssInclude1" runat="server" FilePath="assets/bootstrap/3.3.6/css/bootstrap.css" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude ID="DnnCssInclude4" runat="server" FilePath="assets/css/jquery.smartmenus.bootstrap.css" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude ID="DnnCssInclude3" runat="server" FilePath="assets/font-awesome-4.5.0/css/font-awesome.min.css" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude ID="DnnCssInclude2" runat="server" FilePath="assets/css/bootster.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="DnnCssBootstrap" runat="server" FilePath="assets/bootstrap/3.3.7/css/bootstrap.min.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="DnnCssSmartMenus" runat="server" FilePath="assets/css/jquery.smartmenus.bootstrap.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="DnnCssFontAwesome" runat="server" FilePath="assets/font-awesome-4.5.0/css/font-awesome.min.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="DnnCssBootster" runat="server" FilePath="assets/css/bootster.min.css" PathNameAlias="SkinPath" />
 
 <!-- Theme Css File -->
 <dnn:DnnCssInclude ID="DnnCssThemeInclude" runat="server" FilePath="assets/css/themes/grey.css" PathNameAlias="SkinPath" />
@@ -64,7 +64,7 @@
     </div>
 </footer>   
 
-<dnn:DnnJsInclude ID="DnnJsInclude3" runat="server" FilePath="assets/bootstrap/3.3.6/js/bootstrap.min.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
-<dnn:DnnJsInclude ID="DnnJsInclude2" runat="server" FilePath="assets/js/jquery.smartmenus.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
-<dnn:DnnJsInclude ID="DnnJsInclude4" runat="server" FilePath="assets/js/jquery.smartmenus.bootstrap.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
-<dnn:DnnJsInclude ID="DnnJsInclude1" runat="server" FilePath="assets/js/bootster.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
+<dnn:DnnJsInclude ID="DnnJsBootstrap" runat="server" FilePath="assets/bootstrap/3.3.7/js/bootstrap.min.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
+<dnn:DnnJsInclude ID="DnnJsSmartMenu" runat="server" FilePath="assets/js/jquery.smartmenus.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
+<dnn:DnnJsInclude ID="DnnJsSmartMenuBootstrap" runat="server" FilePath="assets/js/jquery.smartmenus.bootstrap.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
+<dnn:DnnJsInclude ID="DnnJsBootster" runat="server" FilePath="assets/js/bootster.js" PathNameAlias="SkinPath" ForceProvider="DnnFormBottomProvider" />
