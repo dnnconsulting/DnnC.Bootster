@@ -6,6 +6,12 @@
 <hr/>
 	<h3>About the DnnBootster Theme</h3>
 
+	<h4>Version 01.00.05</h4><br />
+	<h5>Add functionality and fixes</h5>
+	<ul>
+		<li>Updated Fontawesome to version 4.7.0</li>
+	</ul>
+
 	<h4>Version 01.00.04</h4><br />
 	<h5>Add functionality and fixes</h5>
 	<ul>

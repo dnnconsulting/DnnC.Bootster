@@ -18,7 +18,7 @@
 
 <dnn:DnnCssInclude ID="DnnCssBootstrap" runat="server" FilePath="assets/bootstrap/3.3.7/css/bootstrap.min.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude ID="DnnCssSmartMenus" runat="server" FilePath="assets/css/jquery.smartmenus.bootstrap.css" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude ID="DnnCssFontAwesome" runat="server" FilePath="assets/font-awesome-4.5.0/css/font-awesome.min.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="DnnCssFontAwesome" runat="server" FilePath="assets/font-awesome-4.7.0/css/font-awesome.min.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude ID="DnnCssBootster" runat="server" FilePath="assets/css/bootster.min.css" PathNameAlias="SkinPath" />
 
 <!-- Theme Css File -->
